@@ -14,6 +14,8 @@
 //! drone-svd = { version = "0.15.0" }
 //! ```
 
+#![feature(cell_update)]
+#![feature(coroutines)]
 #![warn(missing_docs, unsafe_op_in_unsafe_fn)]
 #![warn(clippy::pedantic)]
 #![allow(
